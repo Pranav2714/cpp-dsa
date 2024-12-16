@@ -51,7 +51,6 @@ int main()
     {
         ans = (ans + dp[n - 1][i]) % MOD;
     }
-
     cout << ans << endl;
     return 0;
 }
